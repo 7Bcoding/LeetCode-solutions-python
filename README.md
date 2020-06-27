@@ -1,2 +1,2 @@
-# LeetCode classification and solution of questions
+# LeetCode Question type and solutions
 LeetCode题型分类及解法
