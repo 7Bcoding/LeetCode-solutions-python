@@ -20,6 +20,6 @@ class Solution:
                 result.append(dict_nums.get(target-nums[n]))
                 result.append(n)
                 break
-            dict_nums.update({nums[n]:n})
+            dict_nums.update({nums[n]: n})
         
         return result
