@@ -22,14 +22,14 @@ class Solution(object):
         stack = [-1]
         longest = 0
         for i in range(n):
-            print(stack)
             if s[i] == '(':
                 stack.append(i)
             else:
+                stack.pop()
                 if stack:
-                    stack.pop()
                     k = len(stack)
                     longest = max(longest, i - stack[k-1])
                 else:
                     stack.append(i)
+
         return longest
