@@ -14,7 +14,8 @@ class Solution(object):
         #   即拿今天的最大利润和之前的最大利润作比较，更大的值更新为当前最大利润
 
         n = len(prices)
-        if n == 0: return 0
+        if n == 0:
+            return 0
         # 只遍历一次，dp表示从第1到第n天的最大利润数组
         dp = [0] * n
         minprice = prices[0]
