@@ -19,7 +19,6 @@ class Solution(object):
 
         dp = [[0] * (k+1) for k in range(r)]
         dp[0][0] = triangle[0][0]
-        minvalue = float('inf')
 
         for i in range(1, r):
             l += 1
@@ -30,9 +29,8 @@ class Solution(object):
                     dp[i][j] = dp[i-1][j-1] + triangle[i][j]
                 else:
                     dp[i][j] = min(dp[i-1][j-1], dp[i-1][j]) + triangle[i][j]
-                if i == r-1:
-                    minvalue = min(minvalue, dp[i][j])
-        return minvalue
+
+        return min(dp[r-1])
 
 
 
