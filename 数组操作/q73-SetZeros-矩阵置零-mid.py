@@ -22,3 +22,4 @@ class Solution(object):
             column = colset.pop()
             for i in range(row):
                 matrix[i][column] = 0
+
