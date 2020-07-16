@@ -34,3 +34,4 @@ class Solution(object):
                 oddnode.next = dummy_even.next
                 break
         return dummy_odd.next
+
