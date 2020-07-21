@@ -32,4 +32,5 @@ class Solution(object):
                 if marked[i][j] == False and grid[i][j] == '1':
                     dfsland(i, j)
                     landnums += 1
+
         return landnums
