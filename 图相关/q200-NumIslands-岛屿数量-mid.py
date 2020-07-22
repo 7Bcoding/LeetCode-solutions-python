@@ -29,7 +29,7 @@ class Solution(object):
 
         for i in range(r):
             for j in range(l):
-                if marked[i][j] == False and grid[i][j] == '1':
+                if marked[i][j] is False and grid[i][j] == '1':
                     dfsland(i, j)
                     landnums += 1
 
