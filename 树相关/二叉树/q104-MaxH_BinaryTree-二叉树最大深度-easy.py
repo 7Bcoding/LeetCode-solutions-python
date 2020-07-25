@@ -26,3 +26,4 @@ class Solution(object):
                 stack.append((depth, root.right))
 
         return maxdepth
+

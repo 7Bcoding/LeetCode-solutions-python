@@ -15,7 +15,7 @@ class Solution(object):
         if not root:
             return True
         node_stack = []
-        if root.left and root.right:
+        if root.left or root.right:
             node_stack.append(root.left)
             node_stack.append(root.right)
         while node_stack:
@@ -34,4 +34,6 @@ class Solution(object):
             node_stack.append(left.right)
             node_stack.append(right.left)
         return True
+
+
 
