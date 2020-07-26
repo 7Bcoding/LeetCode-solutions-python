@@ -35,17 +35,19 @@ class Solution:
             goodleaf = []
             leftlist = dfstree(root.left, good)    # 后序遍历来获取每个节点的左子树和右子树满足条件的叶子节点数量
             for i in leftlist:
-                if i <= distance:
-                    goodleaf.append(i + 1)          # 该叶子节点的距离+1，更新至本节点的叶子节点距离列表中
+                if i > distance:
+                    continue
+                goodleaf.append(i + 1)          # 该叶子节点的距离+1，更新至本节点的叶子节点距离列表中
             rightlist = dfstree(root.right, good)
             for i in rightlist:
-                if i <= distance:
-                    goodleaf.append(i + 1)
+                if i > distance:
+                    continue
+                goodleaf.append(i + 1)
             for l in leftlist:                      # 遍历左右子树根节点的叶子节点距离值列表，两两配对计算距离的和
                 for r in rightlist:
                     if l + r + 2 <= distance:
-                        good += 1                   # 总的好叶子节点对数good+1
+                        good[0] += 1                   # 总的好叶子节点对数good+1
             return goodleaf
-        good = 0
+        good = [0]
         dfstree(root, good)
-        return good
+        return good[0]
