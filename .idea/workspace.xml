@@ -1,13 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="44af68c6-0791-4613-bf1a-f3d5d3614ed5" name="Default Changelist" comment="" />
+    <list default="true" id="44af68c6-0791-4613-bf1a-f3d5d3614ed5" name="Default Changelist" comment="20200808更新，二叉搜索树相关">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestBoard.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/前缀和/5471-MaxNonOverlapping-和为目标值的最大数目不重叠非空子数组数目-mid.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_7_15_18_06__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1duLXTSfTRcUCiQPnY0f2GJ22So" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -15,7 +52,134 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\python\LeetCode-Question-type-solutions\树相关\二叉树" />
+      <recent name="D:\python\LeetCode-Question-type-solutions\树相关\二叉搜索树相关" />
+      <recent name="D:\python\LeetCode-Question-type-solutions\树相关" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.TestBoard">
+    <configuration name="TestBoard" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TestBoard.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="q1367-IsSubPath-二叉树中的列表-mid" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/树相关/二叉树" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/树相关/二叉树/q1367-IsSubPath-二叉树中的列表-mid.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="q300-LengthOfLIS-最长上升子序列-mid" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/动态规划" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/动态规划/q300-LengthOfLIS-最长上升子序列-mid.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="q39-CombinationSum-组合总和-mid" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/回溯算法" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/回溯算法/q39-CombinationSum-组合总和-mid.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="q42-Trap-接雨水-hard" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/栈相关" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/栈相关/q42-Trap-接雨水-hard.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.TestBoard" />
+        <item itemvalue="Python.q300-LengthOfLIS-最长上升子序列-mid" />
+        <item itemvalue="Python.q1367-IsSubPath-二叉树中的列表-mid" />
+        <item itemvalue="Python.q42-Trap-接雨水-hard" />
+        <item itemvalue="Python.q39-CombinationSum-组合总和-mid" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_MODE" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -28,16 +192,271 @@
       <option name="presentableId" value="Default" />
       <updated>1593270070329</updated>
     </task>
+    <task id="LOCAL-00001" summary="20200714更新，动态规划">
+      <created>1594740327017</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1594740327018</updated>
+    </task>
+    <task id="LOCAL-00002" summary="20200715更新,数组">
+      <created>1594813897201</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1594813897201</updated>
+    </task>
+    <task id="LOCAL-00003" summary="20200716更新,链表">
+      <created>1594906067477</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1594906067477</updated>
+    </task>
+    <task id="LOCAL-00004" summary="20200718更新,二叉树">
+      <created>1595056610896</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1595056610896</updated>
+    </task>
+    <task id="LOCAL-00005" summary="20200719更新,回溯算法">
+      <created>1595133179372</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1595133179372</updated>
+    </task>
+    <task id="LOCAL-00006" summary="20200719更新,回溯算法">
+      <created>1595133225777</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1595133225777</updated>
+    </task>
+    <task id="LOCAL-00007" summary="20200720更新,树相关">
+      <created>1595246494426</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1595246494426</updated>
+    </task>
+    <task id="LOCAL-00008" summary="20200721更新,图相关">
+      <created>1595341689631</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1595341689631</updated>
+    </task>
+    <task id="LOCAL-00009" summary="20200721更新,图相关">
+      <created>1595341723629</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1595341723629</updated>
+    </task>
+    <task id="LOCAL-00010" summary="20200722更新,回溯算法相关">
+      <created>1595423868336</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1595423868336</updated>
+    </task>
+    <task id="LOCAL-00011" summary="20200725更新,树相关">
+      <created>1595669903612</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1595669903612</updated>
+    </task>
+    <task id="LOCAL-00012" summary="20200725更新,动态规划相关">
+      <created>1595698377418</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1595698377418</updated>
+    </task>
+    <task id="LOCAL-00013" summary="20200726更新,树相关">
+      <created>1595759648580</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1595759648580</updated>
+    </task>
+    <task id="LOCAL-00014" summary="20200726更新,树相关">
+      <created>1595760313747</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1595760313747</updated>
+    </task>
+    <task id="LOCAL-00015" summary="20200801更新,单调栈相关">
+      <created>1596255447489</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1596255447489</updated>
+    </task>
+    <task id="LOCAL-00016" summary="20200802更新,二叉树相关">
+      <created>1596345741512</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1596345741512</updated>
+    </task>
+    <task id="LOCAL-00017" summary="20200802更新,贪心算法相关">
+      <created>1596356757314</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1596356757314</updated>
+    </task>
+    <task id="LOCAL-00018" summary="20200802更新,贪心算法、二叉树相关">
+      <created>1596359875174</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1596359875174</updated>
+    </task>
+    <task id="LOCAL-00019" summary="20200803更新,二叉树相关">
+      <created>1596465604851</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1596465604851</updated>
+    </task>
+    <task id="LOCAL-00020" summary="20200807更新">
+      <created>1596796646295</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1596796646295</updated>
+    </task>
+    <task id="LOCAL-00021" summary="20200808更新，二叉搜索树相关">
+      <created>1596871347474</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1596871347474</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="20200714更新，动态规划" />
+    <MESSAGE value="20200715更新,数组" />
+    <MESSAGE value="20200716更新,链表" />
+    <MESSAGE value="20200718更新,二叉树" />
+    <MESSAGE value="20200719更新,回溯算法" />
+    <MESSAGE value="20200720更新,树相关" />
+    <MESSAGE value="20200721更新,图相关" />
+    <MESSAGE value="20200722更新,回溯算法相关" />
+    <MESSAGE value="20200722更新,树相关" />
+    <MESSAGE value="20200725更新,树相关" />
+    <MESSAGE value="20200725更新,动态规划相关" />
+    <MESSAGE value="20200726更新,树相关" />
+    <MESSAGE value="20200801更新,单调栈相关" />
+    <MESSAGE value="20200802更新,二叉树相关" />
+    <MESSAGE value="20200802更新,贪心算法相关" />
+    <MESSAGE value="20200802更新,贪心算法、二叉树相关" />
+    <MESSAGE value="20200803更新,二叉树相关" />
+    <MESSAGE value="20200807更新" />
+    <MESSAGE value="20200808更新，二叉搜索树相关" />
+    <option name="LAST_COMMIT_MESSAGE" value="20200808更新，二叉搜索树相关" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="565" y="225" key="#Notifications" timestamp="1595336225912">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="565" y="225" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1595336225912" />
     <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593270112136">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1593270112136" />
+    <state x="363" y="98" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1596123484122">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="363" y="98" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1596123484122" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1593270118016">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1593270118016" />
+    <state width="1345" height="126" key="GridCell.Tab.0.bottom" timestamp="1596959119462">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="126" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1596959119462" />
+    <state width="1345" height="126" key="GridCell.Tab.0.center" timestamp="1596959119462">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="126" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1596959119462" />
+    <state width="1345" height="126" key="GridCell.Tab.0.left" timestamp="1596959119462">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="126" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1596959119462" />
+    <state width="1345" height="126" key="GridCell.Tab.0.right" timestamp="1596959119462">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="126" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1596959119462" />
+    <state width="1345" height="195" key="GridCell.Tab.1.bottom" timestamp="1596958066585">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="195" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1596958066585" />
+    <state width="1345" height="195" key="GridCell.Tab.1.center" timestamp="1596958066585">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="195" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1596958066585" />
+    <state width="1345" height="195" key="GridCell.Tab.1.left" timestamp="1596958066584">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="195" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1596958066584" />
+    <state width="1345" height="195" key="GridCell.Tab.1.right" timestamp="1596958066585">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="195" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1596958066585" />
+    <state x="461" y="65" key="RollbackChangesDialog" timestamp="1595760198594">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="461" y="65" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1595760198593" />
+    <state x="257" y="122" key="Vcs.Push.Dialog.v2" timestamp="1596871349267">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="257" y="122" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1596871349267" />
+    <state x="476" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596796427769">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="476" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1596796427769" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/回溯算法/q77-Combine-组合-mid.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/回溯算法/q77-Combine-组合-mid.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/回溯算法/q77-Combine-组合-mid.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
