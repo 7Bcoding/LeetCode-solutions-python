@@ -19,12 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44af68c6-0791-4613-bf1a-f3d5d3614ed5" name="Default Changelist" comment="20200808更新，二叉搜索树相关">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestBoard.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/前缀和/5471-MaxNonOverlapping-和为目标值的最大数目不重叠非空子数组数目-mid.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_7_15_18_06__Default_Changelist_.xml" beforeDir="false" />
+    <list default="true" id="44af68c6-0791-4613-bf1a-f3d5d3614ed5" name="Default Changelist" comment="20200809更新，前缀和相关">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestBoard.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestBoard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/字符串操作/q93-RestoreIpAddresses-复原IP地址-mid.py" beforeDir="false" afterPath="$PROJECT_DIR$/字符串操作/q93-RestoreIpAddresses-复原IP地址-mid.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -339,7 +337,21 @@
       <option name="project" value="LOCAL" />
       <updated>1596871347474</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="20200809更新，前缀和相关">
+      <created>1596962642149</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1596962642149</updated>
+    </task>
+    <task id="LOCAL-00023" summary="20200809更新，前缀和相关">
+      <created>1596962673816</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1596962673816</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -374,7 +386,8 @@
     <MESSAGE value="20200803更新,二叉树相关" />
     <MESSAGE value="20200807更新" />
     <MESSAGE value="20200808更新，二叉搜索树相关" />
-    <option name="LAST_COMMIT_MESSAGE" value="20200808更新，二叉搜索树相关" />
+    <MESSAGE value="20200809更新，前缀和相关" />
+    <option name="LAST_COMMIT_MESSAGE" value="20200809更新，前缀和相关" />
   </component>
   <component name="WindowStateProjectService">
     <state x="565" y="225" key="#Notifications" timestamp="1595336225912">
@@ -389,6 +402,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="363" y="98" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1596123484122" />
+    <state x="111" y="80" key="DiffContextDialog" timestamp="1596962698650">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="111" y="80" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1596962698650" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1593270118016">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -429,14 +446,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="461" y="65" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1595760198593" />
-    <state x="257" y="122" key="Vcs.Push.Dialog.v2" timestamp="1596871349267">
+    <state x="257" y="122" key="Vcs.Push.Dialog.v2" timestamp="1596962751878">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="257" y="122" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1596871349267" />
+    <state x="257" y="122" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1596962751878" />
     <state x="476" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596796427769">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="476" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1596796427769" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1596962625112">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1596962625112" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
