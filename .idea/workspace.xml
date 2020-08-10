@@ -21,11 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="44af68c6-0791-4613-bf1a-f3d5d3614ed5" name="Default Changelist" comment="20200809更新，字符串相关">
       <change afterPath="$PROJECT_DIR$/Testboard.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/哈希表/5469-canConvertString-K次操作转变字符串-mid.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/字符串操作/5469-canConvertString-K次操作转变字符串-mid.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/字符串操作/5483-MakeGood-整理字符串-easy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/字符串操作/5484-FindKthBit-找出第N个二进制字符串中的第K位-mid.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/贪心算法/5469-canConvertString-K次操作转变字符串-mid.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/前缀和/q1542-LogestAwesome-找出最长的超赞子字符串-hard.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/动态规划/q1542-LogestAwesome-找出最长的超赞子字符串-hard.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,10 +52,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/贪心算法" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/状态压缩" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\python\LeetCode-Question-type-solutions\状态压缩" />
+      <recent name="D:\python\LeetCode-Question-type-solutions\动态规划" />
       <recent name="D:\python\LeetCode-Question-type-solutions\贪心算法" />
       <recent name="D:\python\LeetCode-Question-type-solutions\哈希表" />
     </key>
@@ -366,7 +365,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596963203927</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="20200809更新，字符串相关">
+      <created>1596964230679</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1596964230679</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -462,38 +468,17 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="461" y="65" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1595760198593" />
-    <state x="257" y="122" key="Vcs.Push.Dialog.v2" timestamp="1596963207006">
+    <state x="257" y="122" key="Vcs.Push.Dialog.v2" timestamp="1596964233020">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="257" y="122" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1596963207006" />
-    <state x="476" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596796427769">
+    <state x="257" y="122" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1596964233020" />
+    <state x="476" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597054793478">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="476" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1596796427769" />
+    <state x="476" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1597054793478" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1596962625112">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1596962625112" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/回溯算法/q77-Combine-组合-mid.py</url>
-          <line>22</line>
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/回溯算法/q77-Combine-组合-mid.py</url>
-          <line>27</line>
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/回溯算法/q77-Combine-组合-mid.py</url>
-          <line>28</line>
-          <option name="timeStamp" value="37" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
