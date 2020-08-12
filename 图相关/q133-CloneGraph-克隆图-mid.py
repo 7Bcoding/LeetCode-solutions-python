@@ -85,4 +85,3 @@ class Solution(object):
                     visited[n].neighbors.append(visited[neighbor])
 
             return visited[node]
-
