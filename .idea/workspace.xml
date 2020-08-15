@@ -19,11 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44af68c6-0791-4613-bf1a-f3d5d3614ed5" name="Default Changelist" comment="20200812更新，动态规划">
+    <list default="true" id="44af68c6-0791-4613-bf1a-f3d5d3614ed5" name="Default Changelist" comment="20200813更新，二叉树序列化">
       <change afterPath="$PROJECT_DIR$/Testboard.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/树相关/二叉树/q297-BinaryTreeSerialize-二叉树的序列化与反序列化-hard.py" beforeDir="false" afterPath="$PROJECT_DIR$/树相关/二叉树/q297-BinaryTreeSerialize-二叉树的序列化与反序列化-hard.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/树相关/二叉树/q297-SerializeTree-二叉树的序列化与反序列化-hard.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/动态规划/q96-NumTrees-不同的二叉搜索树-mid.py" beforeDir="false" afterPath="$PROJECT_DIR$/动态规划/q96-NumTrees-不同的二叉搜索树-mid.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -393,7 +392,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597247709534</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="20200813更新，二叉树序列化">
+      <created>1597331158981</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1597331158981</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -433,7 +439,8 @@
     <MESSAGE value="20200811更新，区间DP" />
     <MESSAGE value="20200812更新，字符串、哈希表" />
     <MESSAGE value="20200812更新，动态规划" />
-    <option name="LAST_COMMIT_MESSAGE" value="20200812更新，动态规划" />
+    <MESSAGE value="20200813更新，二叉树序列化" />
+    <option name="LAST_COMMIT_MESSAGE" value="20200813更新，二叉树序列化" />
   </component>
   <component name="WindowStateProjectService">
     <state x="565" y="225" key="#Notifications" timestamp="1595336225912">
@@ -457,22 +464,22 @@
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1593270118016" />
     <state x="651" y="169" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597105679063" />
-    <state width="1345" height="135" key="GridCell.Tab.0.bottom" timestamp="1597330861623">
+    <state width="1345" height="135" key="GridCell.Tab.0.bottom" timestamp="1597330908192">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="135" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597330861623" />
-    <state width="1345" height="135" key="GridCell.Tab.0.center" timestamp="1597330861623">
+    <state width="1345" height="135" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597330908192" />
+    <state width="1345" height="135" key="GridCell.Tab.0.center" timestamp="1597330908192">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="135" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1597330861623" />
-    <state width="1345" height="135" key="GridCell.Tab.0.left" timestamp="1597330861623">
+    <state width="1345" height="135" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1597330908192" />
+    <state width="1345" height="135" key="GridCell.Tab.0.left" timestamp="1597330908192">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="135" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1597330861623" />
-    <state width="1345" height="135" key="GridCell.Tab.0.right" timestamp="1597330861623">
+    <state width="1345" height="135" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1597330908192" />
+    <state width="1345" height="135" key="GridCell.Tab.0.right" timestamp="1597330908192">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="135" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1597330861623" />
+    <state width="1345" height="135" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1597330908192" />
     <state width="1345" height="195" key="GridCell.Tab.1.bottom" timestamp="1597327294745">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -493,14 +500,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="461" y="65" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1595760198593" />
-    <state x="257" y="122" key="Vcs.Push.Dialog.v2" timestamp="1597247710946">
+    <state x="257" y="122" key="Vcs.Push.Dialog.v2" timestamp="1597331160900">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="257" y="122" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1597247710946" />
-    <state x="476" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597318375113">
+    <state x="257" y="122" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1597331160900" />
+    <state x="476" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597399645430">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="476" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1597318375113" />
+    <state x="476" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1597399645430" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1597239155648">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
