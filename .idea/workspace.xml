@@ -19,10 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44af68c6-0791-4613-bf1a-f3d5d3614ed5" name="Default Changelist" comment="20200813更新，二叉树序列化">
+    <list default="true" id="44af68c6-0791-4613-bf1a-f3d5d3614ed5" name="Default Changelist" comment="20200815更新，动态规划">
       <change afterPath="$PROJECT_DIR$/Testboard.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/动态规划/5490-MinDays-吃掉N个橘子的最少天数-hard.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/动态规划/q96-NumTrees-不同的二叉搜索树-mid.py" beforeDir="false" afterPath="$PROJECT_DIR$/动态规划/q96-NumTrees-不同的二叉搜索树-mid.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +66,7 @@
       <recent name="D:\python\LeetCode-Question-type-solutions\树相关" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.q297-BinaryTreeSerialize-二叉树的序列化与反序列化-hard">
+  <component name="RunManager" selected="Python.Testboard">
     <configuration name="TestBoard" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -80,6 +80,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TestBoard.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Testboard" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Testboard.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -151,34 +172,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="q42-Trap-接雨水-hard" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/栈相关" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/栈相关/q42-Trap-接雨水-hard.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Testboard" />
         <item itemvalue="Python.q297-BinaryTreeSerialize-二叉树的序列化与反序列化-hard" />
         <item itemvalue="Python.TestBoard" />
         <item itemvalue="Python.q300-LengthOfLIS-最长上升子序列-mid" />
         <item itemvalue="Python.q1367-IsSubPath-二叉树中的列表-mid" />
-        <item itemvalue="Python.q42-Trap-接雨水-hard" />
       </list>
     </recent_temporary>
   </component>
@@ -399,7 +399,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597331158981</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="20200815更新，动态规划">
+      <created>1597466429266</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1597466429266</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -415,7 +422,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="20200714更新，动态规划" />
     <MESSAGE value="20200715更新,数组" />
     <MESSAGE value="20200716更新,链表" />
     <MESSAGE value="20200718更新,二叉树" />
@@ -440,7 +446,8 @@
     <MESSAGE value="20200812更新，字符串、哈希表" />
     <MESSAGE value="20200812更新，动态规划" />
     <MESSAGE value="20200813更新，二叉树序列化" />
-    <option name="LAST_COMMIT_MESSAGE" value="20200813更新，二叉树序列化" />
+    <MESSAGE value="20200815更新，动态规划" />
+    <option name="LAST_COMMIT_MESSAGE" value="20200815更新，动态规划" />
   </component>
   <component name="WindowStateProjectService">
     <state x="565" y="225" key="#Notifications" timestamp="1595336225912">
@@ -464,53 +471,53 @@
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1593270118016" />
     <state x="651" y="169" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597105679063" />
-    <state width="1345" height="135" key="GridCell.Tab.0.bottom" timestamp="1597330908192">
+    <state width="1345" height="161" key="GridCell.Tab.0.bottom" timestamp="1597551468073">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="135" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597330908192" />
-    <state width="1345" height="135" key="GridCell.Tab.0.center" timestamp="1597330908192">
+    <state width="1345" height="161" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597551468073" />
+    <state width="1345" height="161" key="GridCell.Tab.0.center" timestamp="1597551468072">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="135" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1597330908192" />
-    <state width="1345" height="135" key="GridCell.Tab.0.left" timestamp="1597330908192">
+    <state width="1345" height="161" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1597551468072" />
+    <state width="1345" height="161" key="GridCell.Tab.0.left" timestamp="1597551468072">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="135" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1597330908192" />
-    <state width="1345" height="135" key="GridCell.Tab.0.right" timestamp="1597330908192">
+    <state width="1345" height="161" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1597551468072" />
+    <state width="1345" height="161" key="GridCell.Tab.0.right" timestamp="1597551468073">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="135" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1597330908192" />
-    <state width="1345" height="195" key="GridCell.Tab.1.bottom" timestamp="1597327294745">
+    <state width="1345" height="161" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1597551468073" />
+    <state width="1345" height="195" key="GridCell.Tab.1.bottom" timestamp="1597550973473">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="195" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597327294745" />
-    <state width="1345" height="195" key="GridCell.Tab.1.center" timestamp="1597327294745">
+    <state width="1345" height="195" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597550973473" />
+    <state width="1345" height="195" key="GridCell.Tab.1.center" timestamp="1597550973473">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="195" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1597327294745" />
-    <state width="1345" height="195" key="GridCell.Tab.1.left" timestamp="1597327294745">
+    <state width="1345" height="195" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1597550973473" />
+    <state width="1345" height="195" key="GridCell.Tab.1.left" timestamp="1597550973473">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="195" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1597327294745" />
-    <state width="1345" height="195" key="GridCell.Tab.1.right" timestamp="1597327294745">
+    <state width="1345" height="195" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1597550973473" />
+    <state width="1345" height="195" key="GridCell.Tab.1.right" timestamp="1597550973473">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="195" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1597327294745" />
+    <state width="1345" height="195" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1597550973473" />
     <state x="461" y="65" key="RollbackChangesDialog" timestamp="1595760198594">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="461" y="65" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1595760198593" />
-    <state x="257" y="122" key="Vcs.Push.Dialog.v2" timestamp="1597331160900">
+    <state x="257" y="122" key="Vcs.Push.Dialog.v2" timestamp="1597467768153">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="257" y="122" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1597331160900" />
+    <state x="257" y="122" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1597467768153" />
     <state x="476" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597399645430">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="476" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1597399645430" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1597239155648">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1597546253330">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1597239155648" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1597546253330" />
   </component>
 </project>
