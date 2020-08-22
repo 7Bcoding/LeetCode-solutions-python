@@ -21,6 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="44af68c6-0791-4613-bf1a-f3d5d3614ed5" name="Default Changelist" comment="20200822更新，回溯算法">
       <change afterPath="$PROJECT_DIR$/Testboard.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/图相关/5480-FindSmallestSetOfVertices-可以到达所有点的最少点数目-mid.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/动态规划/5490-MinDays-吃掉N个橘子的最少天数-hard.py" beforeDir="false" afterPath="$PROJECT_DIR$/动态规划/q1553-MinDays-吃掉N个橘子的最少天数-hard.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -429,7 +432,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598062613502</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="20200822更新，回溯算法">
+      <created>1598062825925</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1598062825925</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -501,22 +511,22 @@
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1597992649668" />
     <state x="651" y="169" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597105679063" />
-    <state width="1345" height="161" key="GridCell.Tab.0.bottom" timestamp="1597551468073">
+    <state width="1345" height="162" key="GridCell.Tab.0.bottom" timestamp="1598111846685">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="161" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597551468073" />
-    <state width="1345" height="161" key="GridCell.Tab.0.center" timestamp="1597551468072">
+    <state width="1345" height="162" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598111846685" />
+    <state width="1345" height="162" key="GridCell.Tab.0.center" timestamp="1598111846684">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="161" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1597551468072" />
-    <state width="1345" height="161" key="GridCell.Tab.0.left" timestamp="1597551468072">
+    <state width="1345" height="162" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1598111846684" />
+    <state width="1345" height="162" key="GridCell.Tab.0.left" timestamp="1598111846684">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="161" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1597551468072" />
-    <state width="1345" height="161" key="GridCell.Tab.0.right" timestamp="1597551468073">
+    <state width="1345" height="162" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1598111846684" />
+    <state width="1345" height="162" key="GridCell.Tab.0.right" timestamp="1598111846685">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="161" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1597551468073" />
+    <state width="1345" height="162" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1598111846685" />
     <state width="1345" height="195" key="GridCell.Tab.1.bottom" timestamp="1597550973473">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -541,10 +551,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="141" y="12" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1598062810889" />
-    <state x="257" y="122" key="Vcs.Push.Dialog.v2" timestamp="1598062615728">
+    <state x="257" y="122" key="Vcs.Push.Dialog.v2" timestamp="1598062834537">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="257" y="122" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1598062615728" />
+    <state x="257" y="122" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1598062834537" />
     <state x="476" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598004642810">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
