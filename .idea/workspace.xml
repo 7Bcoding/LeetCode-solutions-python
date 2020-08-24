@@ -19,11 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44af68c6-0791-4613-bf1a-f3d5d3614ed5" name="Default Changelist" comment="20200822更新，回溯算法">
+    <list default="true" id="44af68c6-0791-4613-bf1a-f3d5d3614ed5" name="Default Changelist" comment="20200823更新">
       <change afterPath="$PROJECT_DIR$/Testboard.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图相关/5480-FindSmallestSetOfVertices-可以到达所有点的最少点数目-mid.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/树相关/二叉搜索树相关/剑指Offer6-II.LowestCommonAncestor-二叉树的最近公共祖先-easy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/树相关/二叉搜索树相关/剑指Offer68-I.LowestCommonAncestor-二叉搜索树的最近公共祖先-easy.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/动态规划/5490-MinDays-吃掉N个橘子的最少天数-hard.py" beforeDir="false" afterPath="$PROJECT_DIR$/动态规划/q1553-MinDays-吃掉N个橘子的最少天数-hard.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +34,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="Python Unit Test" />
       </list>
     </option>
   </component>
@@ -439,7 +440,21 @@
       <option name="project" value="LOCAL" />
       <updated>1598062825925</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="20200822更新，回溯算法">
+      <created>1598113226444</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1598113226444</updated>
+    </task>
+    <task id="LOCAL-00035" summary="20200823更新">
+      <created>1598113271148</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1598113271148</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -458,7 +473,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="20200716更新,链表" />
     <MESSAGE value="20200718更新,二叉树" />
     <MESSAGE value="20200719更新,回溯算法" />
     <MESSAGE value="20200720更新,树相关" />
@@ -483,7 +497,8 @@
     <MESSAGE value="20200813更新，二叉树序列化" />
     <MESSAGE value="20200815更新，动态规划" />
     <MESSAGE value="20200822更新，回溯算法" />
-    <option name="LAST_COMMIT_MESSAGE" value="20200822更新，回溯算法" />
+    <MESSAGE value="20200823更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="20200823更新" />
   </component>
   <component name="WindowStateProjectService">
     <state x="309" y="42" key="#Inspections" timestamp="1597992572882">
@@ -511,38 +526,38 @@
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1597992649668" />
     <state x="651" y="169" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597105679063" />
-    <state width="1345" height="162" key="GridCell.Tab.0.bottom" timestamp="1598111846685">
+    <state width="1345" height="131" key="GridCell.Tab.0.bottom" timestamp="1598195615370">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="162" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598111846685" />
-    <state width="1345" height="162" key="GridCell.Tab.0.center" timestamp="1598111846684">
+    <state width="1345" height="131" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598195615370" />
+    <state width="1345" height="131" key="GridCell.Tab.0.center" timestamp="1598195615369">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="162" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1598111846684" />
-    <state width="1345" height="162" key="GridCell.Tab.0.left" timestamp="1598111846684">
+    <state width="1345" height="131" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1598195615369" />
+    <state width="1345" height="131" key="GridCell.Tab.0.left" timestamp="1598195615369">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="162" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1598111846684" />
-    <state width="1345" height="162" key="GridCell.Tab.0.right" timestamp="1598111846685">
+    <state width="1345" height="131" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1598195615369" />
+    <state width="1345" height="131" key="GridCell.Tab.0.right" timestamp="1598195615370">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="162" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1598111846685" />
-    <state width="1345" height="195" key="GridCell.Tab.1.bottom" timestamp="1597550973473">
+    <state width="1345" height="131" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1598195615370" />
+    <state width="1345" height="223" key="GridCell.Tab.1.bottom" timestamp="1598152955899">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="195" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597550973473" />
-    <state width="1345" height="195" key="GridCell.Tab.1.center" timestamp="1597550973473">
+    <state width="1345" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598152955899" />
+    <state width="1345" height="223" key="GridCell.Tab.1.center" timestamp="1598152955899">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="195" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1597550973473" />
-    <state width="1345" height="195" key="GridCell.Tab.1.left" timestamp="1597550973473">
+    <state width="1345" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1598152955899" />
+    <state width="1345" height="223" key="GridCell.Tab.1.left" timestamp="1598152955899">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="195" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1597550973473" />
-    <state width="1345" height="195" key="GridCell.Tab.1.right" timestamp="1597550973473">
+    <state width="1345" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1598152955899" />
+    <state width="1345" height="223" key="GridCell.Tab.1.right" timestamp="1598152955899">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="195" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1597550973473" />
+    <state width="1345" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1598152955899" />
     <state x="461" y="65" key="RollbackChangesDialog" timestamp="1595760198594">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -551,17 +566,17 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="141" y="12" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1598062810889" />
-    <state x="257" y="122" key="Vcs.Push.Dialog.v2" timestamp="1598062834537">
+    <state x="257" y="122" key="Vcs.Push.Dialog.v2" timestamp="1598113276901">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="257" y="122" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1598062834537" />
+    <state x="257" y="122" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1598113276901" />
     <state x="476" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598004642810">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="476" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1598004642810" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1597546253330">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1598281866569">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1597546253330" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1598281866569" />
   </component>
 </project>
