@@ -19,11 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44af68c6-0791-4613-bf1a-f3d5d3614ed5" name="Default Changelist" comment="20200823更新">
+    <list default="true" id="44af68c6-0791-4613-bf1a-f3d5d3614ed5" name="Default Changelist" comment="20200824更新，二叉搜索树相关">
       <change afterPath="$PROJECT_DIR$/Testboard.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/树相关/二叉搜索树相关/剑指Offer6-II.LowestCommonAncestor-二叉树的最近公共祖先-easy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/树相关/二叉搜索树相关/剑指Offer68-I.LowestCommonAncestor-二叉搜索树的最近公共祖先-easy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/链表操作/q141-HasCircle-环形链表-easy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/链表操作/q142-DeleteCycle-环形链表II-mid.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/链表操作/q19-RemoveNthFromEnd-删除链表中倒数第N个结点-mid.py" beforeDir="false" afterPath="$PROJECT_DIR$/链表操作/q19-RemoveNthFromEnd-删除链表中倒数第N个结点-mid.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/链表操作/q206-Reverselist-反转链表-easy.py" beforeDir="false" afterPath="$PROJECT_DIR$/链表操作/q206-Reverselist-反转链表-easy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/链表操作/q21-MergeTwoLists-合并两个有序链表-easy.py" beforeDir="false" afterPath="$PROJECT_DIR$/链表操作/q21-MergeTwoLists-合并两个有序链表-easy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/链表操作/q237-DeleteNode-删除链表中的结点-easy.py" beforeDir="false" afterPath="$PROJECT_DIR$/链表操作/q237-DeleteNode-删除链表中的结点-easy.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,8 +37,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Python Unit Test" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -454,7 +458,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598113271148</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="20200824更新，二叉搜索树相关">
+      <created>1598283275726</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1598283275726</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -473,7 +484,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="20200718更新,二叉树" />
     <MESSAGE value="20200719更新,回溯算法" />
     <MESSAGE value="20200720更新,树相关" />
     <MESSAGE value="20200721更新,图相关" />
@@ -498,7 +508,8 @@
     <MESSAGE value="20200815更新，动态规划" />
     <MESSAGE value="20200822更新，回溯算法" />
     <MESSAGE value="20200823更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="20200823更新" />
+    <MESSAGE value="20200824更新，二叉搜索树相关" />
+    <option name="LAST_COMMIT_MESSAGE" value="20200824更新，二叉搜索树相关" />
   </component>
   <component name="WindowStateProjectService">
     <state x="309" y="42" key="#Inspections" timestamp="1597992572882">
@@ -521,27 +532,27 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="111" y="80" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1596962698650" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1597992649668">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1598351005460">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1597992649668" />
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1598351005460" />
     <state x="651" y="169" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597105679063" />
-    <state width="1345" height="131" key="GridCell.Tab.0.bottom" timestamp="1598195615370">
+    <state width="1345" height="131" key="GridCell.Tab.0.bottom" timestamp="1598685207643">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="131" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598195615370" />
-    <state width="1345" height="131" key="GridCell.Tab.0.center" timestamp="1598195615369">
+    <state width="1345" height="131" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598685207643" />
+    <state width="1345" height="131" key="GridCell.Tab.0.center" timestamp="1598685207643">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="131" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1598195615369" />
-    <state width="1345" height="131" key="GridCell.Tab.0.left" timestamp="1598195615369">
+    <state width="1345" height="131" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1598685207643" />
+    <state width="1345" height="131" key="GridCell.Tab.0.left" timestamp="1598685207643">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="131" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1598195615369" />
-    <state width="1345" height="131" key="GridCell.Tab.0.right" timestamp="1598195615370">
+    <state width="1345" height="131" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1598685207643" />
+    <state width="1345" height="131" key="GridCell.Tab.0.right" timestamp="1598685207643">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="131" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1598195615370" />
+    <state width="1345" height="131" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1598685207643" />
     <state width="1345" height="223" key="GridCell.Tab.1.bottom" timestamp="1598152955899">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -566,14 +577,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="141" y="12" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1598062810889" />
-    <state x="257" y="122" key="Vcs.Push.Dialog.v2" timestamp="1598113276901">
+    <state x="257" y="122" key="Vcs.Push.Dialog.v2" timestamp="1598283278395">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="257" y="122" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1598113276901" />
-    <state x="476" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598004642810">
+    <state x="257" y="122" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1598283278395" />
+    <state x="476" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598620334877">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="476" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1598004642810" />
+    <state x="476" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1598620334877" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1598281866569">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

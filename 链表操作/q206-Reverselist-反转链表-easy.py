@@ -10,6 +10,20 @@ class Solution(object):
         :type head: ListNode
         :rtype: ListNode
         """
+        # 解法1：三指针
+        # 1. 一个指针做临时节点，负责将pre往前进一步
+        # 2. 一个指针为pre，负责将cur往前进一步
+        # 3. 一个指针为cur，始终在pre前一个，负责将pre的next指向前一个节点
+        cur, pre = None, head
+        while pre:
+            tmp = pre.next
+            pre.next = cur
+            cur = pre
+            pre = tmp
+        return cur
+
+    def reverseList(self, head):
+        # 解法2：两次遍历
         if head is None:
             return head
         nodestack = []
