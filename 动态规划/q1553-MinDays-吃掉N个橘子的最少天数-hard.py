@@ -17,7 +17,6 @@ class Solution(object):
                 dp[i] = min(dp[i], dp[i - (i // 2)] + 1)
             if i % 3 == 0:
                 dp[i] = min(dp[i], dp[i - 2 * (i // 3)] + 1)
-        print(dp)
 
         return dp[-1]
 
