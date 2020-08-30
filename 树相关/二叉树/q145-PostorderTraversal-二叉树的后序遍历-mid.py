@@ -22,3 +22,4 @@ class Solution(object):
                 stack.append(root.right)
 
         return output[::-1]
+
