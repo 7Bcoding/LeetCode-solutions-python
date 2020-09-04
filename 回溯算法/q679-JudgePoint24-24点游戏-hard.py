@@ -61,4 +61,3 @@ class Solution:
             return False
 
         return solve(nums)
-
