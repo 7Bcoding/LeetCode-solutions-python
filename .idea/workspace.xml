@@ -21,7 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="44af68c6-0791-4613-bf1a-f3d5d3614ed5" name="Default Changelist" comment="20200829更新，链表相关">
       <change afterPath="$PROJECT_DIR$/Testboard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/LeetCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LeetCode.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/回溯算法/q679-JudgePoint24-24游戏-hard.py" beforeDir="false" afterPath="$PROJECT_DIR$/回溯算法/q679-JudgePoint24-24点游戏-hard.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,8 +56,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Ansible-Devops" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -114,28 +117,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="q1367-IsSubPath-二叉树中的列表-mid" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/树相关/二叉树" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/树相关/二叉树/q1367-IsSubPath-二叉树中的列表-mid.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="q297-BinaryTreeSerialize-二叉树的序列化与反序列化-hard" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -180,13 +161,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="q55-CanJump-跳跃游戏-mid" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/贪心算法" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/贪心算法/q55-CanJump-跳跃游戏-mid.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.Testboard" />
+        <item itemvalue="Python.q55-CanJump-跳跃游戏-mid" />
         <item itemvalue="Python.q297-BinaryTreeSerialize-二叉树的序列化与反序列化-hard" />
         <item itemvalue="Python.TestBoard" />
         <item itemvalue="Python.q300-LengthOfLIS-最长上升子序列-mid" />
-        <item itemvalue="Python.q1367-IsSubPath-二叉树中的列表-mid" />
       </list>
     </recent_temporary>
   </component>
@@ -533,27 +535,32 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="111" y="80" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1596962698650" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1598761165207">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="655" y="242" key="FileChooserDialogImpl" timestamp="1599232228391">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1598761165207" />
+    <state x="655" y="242" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1599232228391" />
     <state x="651" y="169" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597105679063" />
-    <state width="1345" height="223" key="GridCell.Tab.0.bottom" timestamp="1598761166848">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1599231841492">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1345" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598761166848" />
-    <state width="1345" height="223" key="GridCell.Tab.0.center" timestamp="1598761166847">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599231841492" />
+    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1599231841492">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1345" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1598761166847" />
-    <state width="1345" height="223" key="GridCell.Tab.0.left" timestamp="1598761166847">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1599231841492" />
+    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1599231841492">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1345" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1598761166847" />
-    <state width="1345" height="223" key="GridCell.Tab.0.right" timestamp="1598761166847">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1599231841492" />
+    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1599231841492">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1345" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1598761166847" />
+    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1599231841492" />
     <state width="1345" height="223" key="GridCell.Tab.1.bottom" timestamp="1598761166850">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -574,10 +581,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="461" y="65" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1595760198593" />
-    <state x="141" y="12" key="SettingsEditor" timestamp="1598062810889">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="342" y="114" key="SettingsEditor" timestamp="1599232578636">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="141" y="12" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1598062810889" />
+    <state x="342" y="114" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1599232578636" />
     <state x="257" y="122" key="Vcs.Push.Dialog.v2" timestamp="1598699888140">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
