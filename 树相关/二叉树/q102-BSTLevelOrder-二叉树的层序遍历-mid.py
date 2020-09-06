@@ -12,10 +12,10 @@ class Solution(object):
         :rtype: List[List[int]]
         """
         if root is None:
-            return
-        nodequeue = ["r", root]
-        line = []
+            return []
+        nodequeue = [root, "r"]
         result = []
+        line = []
         while nodequeue:
             node = nodequeue.pop(0)
             if isinstance(node, TreeNode):
@@ -25,11 +25,9 @@ class Solution(object):
                 if node.right:
                     nodequeue.append(node.right)
             else:
+                result.append(line)
+                line = []
                 if len(nodequeue) > 0:
                     nodequeue.append("r")
-                    result.append(line)
-                    line = []
+
         return result
-
-
-

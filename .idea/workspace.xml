@@ -22,6 +22,7 @@
     <list default="true" id="44af68c6-0791-4613-bf1a-f3d5d3614ed5" name="Default Changelist" comment="20200829更新，链表相关">
       <change afterPath="$PROJECT_DIR$/Testboard.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/树相关/二叉树/q102-BSTLevelOrder-二叉树的层序遍历-mid.py" beforeDir="false" afterPath="$PROJECT_DIR$/树相关/二叉树/q102-BSTLevelOrder-二叉树的层序遍历-mid.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +54,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -538,22 +539,22 @@
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1598761165207" />
     <state x="651" y="169" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597105679063" />
-    <state width="1345" height="223" key="GridCell.Tab.0.bottom" timestamp="1598761166848">
+    <state width="1345" height="131" key="GridCell.Tab.0.bottom" timestamp="1599362804199">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598761166848" />
-    <state width="1345" height="223" key="GridCell.Tab.0.center" timestamp="1598761166847">
+    <state width="1345" height="131" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599362804199" />
+    <state width="1345" height="131" key="GridCell.Tab.0.center" timestamp="1599362804199">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1598761166847" />
-    <state width="1345" height="223" key="GridCell.Tab.0.left" timestamp="1598761166847">
+    <state width="1345" height="131" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599362804199" />
+    <state width="1345" height="131" key="GridCell.Tab.0.left" timestamp="1599362804199">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1598761166847" />
-    <state width="1345" height="223" key="GridCell.Tab.0.right" timestamp="1598761166847">
+    <state width="1345" height="131" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599362804199" />
+    <state width="1345" height="131" key="GridCell.Tab.0.right" timestamp="1599362804199">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1598761166847" />
+    <state width="1345" height="131" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599362804199" />
     <state width="1345" height="223" key="GridCell.Tab.1.bottom" timestamp="1598761166850">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
