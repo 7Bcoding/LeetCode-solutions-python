@@ -60,3 +60,5 @@ class Solution:
             head = tail.next
 
         return hair.next
+
+   
