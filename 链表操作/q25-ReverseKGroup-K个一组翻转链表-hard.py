@@ -1,3 +1,4 @@
+
 class ListNode(object):
     def __init__(self, x):
         self.val = x
@@ -60,5 +61,3 @@ class Solution:
             head = tail.next
 
         return hair.next
-
-   
