@@ -22,7 +22,7 @@
     <list default="true" id="44af68c6-0791-4613-bf1a-f3d5d3614ed5" name="Default Changelist" comment="20200913更新，图，最小生成树算法相关">
       <change afterPath="$PROJECT_DIR$/Testboard.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/图相关/5513-MinCostConnectPoints-连接所有点的最小费用-mid.py" beforeDir="false" afterPath="$PROJECT_DIR$/图相关/5513-MinCostConnectPoints-连接所有点的最小费用-mid.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/数组操作/LCP18-BreakfastNumber-早餐组合-easy.py" beforeDir="false" afterPath="$PROJECT_DIR$/数组操作/LCP18-BreakfastNumber-早餐组合-easy.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -502,7 +502,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599974991160</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="20200913更新，图，最小生成树算法相关">
+      <created>1599988190955</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1599988190955</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -627,11 +634,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="141" y="12" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1598062810889" />
-    <state x="289" y="138" key="Vcs.Push.Dialog.v2" timestamp="1599974992698">
+    <state x="289" y="138" key="Vcs.Push.Dialog.v2" timestamp="1599988192521">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="257" y="122" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1599383892629" />
-    <state x="289" y="138" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599974992698" />
+    <state x="289" y="138" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599988192521" />
     <state x="535" y="312" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599984916681">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
