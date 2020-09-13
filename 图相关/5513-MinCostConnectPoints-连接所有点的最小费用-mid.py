@@ -1,3 +1,4 @@
+import heapq
 from queue import PriorityQueue
 
 
@@ -7,29 +8,28 @@ class Solution(object):
         :type points: List[List[int]]
         :rtype: int
         """
-        # 解法：正常的prim算法（超时）
+        # 解法：prim算法 + 堆
         res, mincost = [], 0
-        cost = [[0] * len(points) for _ in range(len(points))]
+        costs = [[0] * len(points) for _ in range(len(points))]
         for i in range(len(points)):
             for j in range(len(points)):
-                cost[i][j] = abs(points[i][0]-points[j][0]) + abs(points[i][1]-points[j][1])
-        seleted_node = [0]
-        candidate_node = [i for i in range(1, len(points))]
-        while candidate_node:
-            begin, end, minweight = 0, 0, float('inf')
-            for i in seleted_node:
-                for j in candidate_node:
-                    if cost[i][j] < minweight:
-                        minweight = cost[i][j]
-                        end = j
-            mincost += minweight
-            seleted_node.append(end)
-            candidate_node.remove(end)
-
+                costs[i][j] = abs(points[i][0]-points[j][0]) + abs(points[i][1]-points[j][1])  # 计算曼哈顿距离
+        selected = [0]
+        candidate = [i for i in range(len(points))]
+        cost_weight = [(0, 0)]   # 边权值和边的末尾节点
+        while candidate:
+            minweight, start = heapq.heappop(cost_weight)          # 弹出当前最小权值的边和该边结尾的点，以该点为起点继续寻找最小边
+            if start not in candidate:                        # 已访问过的直接跳过
+                continue
+            selected.append(start)                            # 加入已访问节点集合中
+            candidate.remove(start)                           # 从候选节点集合中移除该节点
+            mincost += minweight                              # 更新最小权值总和
+            for end in candidate:
+                heapq.heappush(cost_weight, (costs[start][end], end))  # 获取以该节点为起点，到候选节点集合中剩余节点的边权值，加入堆中
         return mincost
 
     def minCostConnectPoints(self, points):
-        # 解法：prim + 优先队列
+        # 解法：prim算法 + 优先队列
         cal = lambda p1, p2: abs(p1[0] - p2[0]) + abs(p1[1] - p2[1])  # 计算曼哈顿距离
         pq = PriorityQueue()
         visited = set([i for i in range(len(points))])
