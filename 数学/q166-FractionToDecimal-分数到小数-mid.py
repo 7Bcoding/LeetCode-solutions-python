@@ -17,29 +17,29 @@ class Solution(object):
         # -1/-4  --------- 除数和被除数都是负数，结果为正数。
         # −2147483648 /-1 -- 转成整数时注意可能溢出。
 
-        flag = 1 if numerator * denominator >= 0 else -1
-        numerator = abs(numerator)
-        denominator = abs(denominator)  # python对于负数的除法依然是向下取整，题中的要求是按照绝对值除法余数的，所以取绝对值
+        num = abs(numerator)
+        dem = abs(denominator)  # python对于负数的除法依然是向下取整，题中的要求是按照绝对值除法余数的，所以取绝对值
 
-        head = numerator // denominator
-        head = str(head) if flag > 0 else '-' + str(head)
+        flag = 1 if num * dem >= 0 else -1  # 数字的整体符号
+        head = num // dem
+        head = str(head) if flag > 0 else '-' + str(head)  # 整数部分
 
-        rest = numerator % denominator
-        res = []
-        # 注意到余数只能取0(除尽了),1,2,....denominator-1这么多情况,用字典计算余数出现的最后一次位置，一旦发
-        # 生了重复代表从余数上一次在字典中记录的位置开始发生了循环
-        rest_dic = {}
+        rem = num % dem
+        dec = []
+        remain = {}             # 用字典计算非循环部分余数出现的最后一次位置
         ind = 0
-        while rest != 0 and rest not in rest_dic:
-            rest_dic[rest] = ind
-            rest *= 10
-            res.append(str(rest // denominator))
-            rest = rest % denominator
+
+        # 余数为 0 时除尽了,退出循环，当除不尽时，一旦发生了重复代表从余数上一次在字典中记录的位置开始发生了循环，这部分即为循环小数
+        while rem != 0 and rem not in remain:
+            remain[rem] = ind
+            rem *= 10
+            dec.append(str(rem // dem))
+            rem = rem % dem
             ind += 1
 
-        if not res:
+        if not dec:
             return head
-        if rest == 0:
-            return head + '.' + ''.join(res)
+        if rem == 0:
+            return head + '.' + ''.join(dec)
         else:
-            return head + '.' + ''.join(res[:rest_dic[rest]]) + '(' + ''.join(res[rest_dic[rest]:]) + ')'
+            return head + '.' + ''.join(dec[:remain[rem]]) + '(' + ''.join(dec[remain[rem]:]) + ')'
