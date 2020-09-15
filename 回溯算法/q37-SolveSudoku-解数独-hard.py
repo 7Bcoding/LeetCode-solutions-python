@@ -1,6 +1,3 @@
-from collections import defaultdict
-
-
 class Solution:
     def solveSudoku(self, board):
         """
