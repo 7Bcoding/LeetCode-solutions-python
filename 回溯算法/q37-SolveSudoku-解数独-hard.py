@@ -39,3 +39,4 @@ class Solution:
                     line[i][digit] = column[j][digit] = block[i // 3][j // 3][digit] = True  # 初始化已填的数字
 
         dfs(0)
+
