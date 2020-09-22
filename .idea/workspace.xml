@@ -21,7 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="44af68c6-0791-4613-bf1a-f3d5d3614ed5" name="Default Changelist" comment="20200913更新，数组，双指针">
       <change afterPath="$PROJECT_DIR$/Testboard.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/树相关/二叉树/q226-InvertTree-翻转二叉树-easy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/树相关/二叉搜索树相关/q538-ConvertBST-把二叉搜索树转换为累加树-easy.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
