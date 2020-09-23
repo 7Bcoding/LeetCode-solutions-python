@@ -19,9 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44af68c6-0791-4613-bf1a-f3d5d3614ed5" name="Default Changelist" comment="20200922更新，回溯算法">
+    <list default="true" id="44af68c6-0791-4613-bf1a-f3d5d3614ed5" name="Default Changelist" comment="20200922更新，二叉树">
       <change afterPath="$PROJECT_DIR$/Testboard.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/树相关/二叉树/q404-SumOfLeftLeaves-左叶子之和-easy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/树相关/二叉树/q617-MergeTrees-合并二叉树-easy.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -531,7 +531,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600768978838</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="20200922更新，二叉树">
+      <created>1600786547169</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1600786547169</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -550,7 +557,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="20200802更新,二叉树相关" />
     <MESSAGE value="20200802更新,贪心算法相关" />
     <MESSAGE value="20200802更新,贪心算法、二叉树相关" />
     <MESSAGE value="20200803更新,二叉树相关" />
@@ -575,7 +581,8 @@
     <MESSAGE value="20200913更新，数组，双指针" />
     <MESSAGE value="20200922更新，二叉搜索树" />
     <MESSAGE value="20200922更新，回溯算法" />
-    <option name="LAST_COMMIT_MESSAGE" value="20200922更新，回溯算法" />
+    <MESSAGE value="20200922更新，二叉树" />
+    <option name="LAST_COMMIT_MESSAGE" value="20200922更新，二叉树" />
   </component>
   <component name="WindowStateProjectService">
     <state x="309" y="42" key="#Inspections" timestamp="1597992572882">
@@ -656,11 +663,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="141" y="12" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1598062810889" />
-    <state x="289" y="138" key="Vcs.Push.Dialog.v2" timestamp="1600768980288">
+    <state x="289" y="138" key="Vcs.Push.Dialog.v2" timestamp="1600786548849">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="257" y="122" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1599383892629" />
-    <state x="289" y="138" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1600768980288" />
+    <state x="289" y="138" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1600786548849" />
     <state x="535" y="312" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600077879113">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
