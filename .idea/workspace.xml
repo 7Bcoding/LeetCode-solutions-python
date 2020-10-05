@@ -19,9 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44af68c6-0791-4613-bf1a-f3d5d3614ed5" name="Default Changelist" comment="20200930更新，二叉搜索树">
+    <list default="true" id="44af68c6-0791-4613-bf1a-f3d5d3614ed5" name="Default Changelist" comment="20201005更新，双指针">
       <change afterPath="$PROJECT_DIR$/Testboard.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/双指针遍历/q18-FourSum-四数之和-mid.py" beforeDir="false" afterPath="$PROJECT_DIR$/双指针遍历/q18-FourSum-四数之和-mid.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,13 +208,6 @@
       <updated>1593270070329</updated>
       <workItem from="1597815532038" duration="624000" />
       <workItem from="1597908388478" duration="4554000" />
-    </task>
-    <task id="LOCAL-00002" summary="20200715更新,数组">
-      <created>1594813897201</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1594813897201</updated>
     </task>
     <task id="LOCAL-00003" summary="20200716更新,链表">
       <created>1594906067477</created>
@@ -551,7 +545,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601475701896</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="20201005更新，双指针">
+      <created>1601906014824</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1601906014825</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -570,7 +571,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="20200807更新" />
     <MESSAGE value="20200808更新，二叉搜索树相关" />
     <MESSAGE value="20200809更新，前缀和相关" />
     <MESSAGE value="20200809更新，字符串相关" />
@@ -595,7 +595,8 @@
     <MESSAGE value="20200923更新，二叉树" />
     <MESSAGE value="20200929更新，二叉树" />
     <MESSAGE value="20200930更新，二叉搜索树" />
-    <option name="LAST_COMMIT_MESSAGE" value="20200930更新，二叉搜索树" />
+    <MESSAGE value="20201005更新，双指针" />
+    <option name="LAST_COMMIT_MESSAGE" value="20201005更新，双指针" />
   </component>
   <component name="WindowStateProjectService">
     <state x="309" y="42" key="#Inspections" timestamp="1597992572882">
@@ -676,11 +677,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="141" y="12" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1598062810889" />
-    <state x="289" y="138" key="Vcs.Push.Dialog.v2" timestamp="1601475705954">
+    <state x="289" y="138" key="Vcs.Push.Dialog.v2" timestamp="1601907513885">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="257" y="122" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1599383892629" />
-    <state x="289" y="138" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1601475705954" />
+    <state x="289" y="138" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1601907513885" />
     <state x="535" y="312" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601717687401">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
