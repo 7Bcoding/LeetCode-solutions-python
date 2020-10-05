@@ -21,7 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="44af68c6-0791-4613-bf1a-f3d5d3614ed5" name="Default Changelist" comment="20200930更新，二叉搜索树">
       <change afterPath="$PROJECT_DIR$/Testboard.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/树相关/二叉树/q106-BuildTree-从中序遍历和后序遍历序列构造二叉树-mid.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -625,26 +624,26 @@
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1598761165207" />
     <state x="521" y="134" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1601468846757" />
     <state x="651" y="169" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597105679063" />
-    <state width="1515" height="126" key="GridCell.Tab.0.bottom" timestamp="1599987954585">
+    <state width="1515" height="126" key="GridCell.Tab.0.bottom" timestamp="1601870972660">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1345" height="131" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599362804199" />
-    <state width="1515" height="126" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599987954585" />
-    <state width="1515" height="126" key="GridCell.Tab.0.center" timestamp="1599987954585">
+    <state width="1515" height="126" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601870972660" />
+    <state width="1515" height="126" key="GridCell.Tab.0.center" timestamp="1601870972660">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1345" height="131" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599362804199" />
-    <state width="1515" height="126" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1599987954585" />
-    <state width="1515" height="126" key="GridCell.Tab.0.left" timestamp="1599987954585">
+    <state width="1515" height="126" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1601870972660" />
+    <state width="1515" height="126" key="GridCell.Tab.0.left" timestamp="1601870972660">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1345" height="131" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599362804199" />
-    <state width="1515" height="126" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1599987954585" />
-    <state width="1515" height="126" key="GridCell.Tab.0.right" timestamp="1599987954585">
+    <state width="1515" height="126" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1601870972660" />
+    <state width="1515" height="126" key="GridCell.Tab.0.right" timestamp="1601870972660">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1345" height="131" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599362804199" />
-    <state width="1515" height="126" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1599987954585" />
+    <state width="1515" height="126" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1601870972660" />
     <state width="1515" height="261" key="GridCell.Tab.1.bottom" timestamp="1599987340617">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -682,11 +681,11 @@
     </state>
     <state x="257" y="122" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1599383892629" />
     <state x="289" y="138" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1601475705954" />
-    <state x="535" y="312" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600077879113">
+    <state x="535" y="312" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601717687401">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="476" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1599383938122" />
-    <state x="535" y="312" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1600077879113" />
+    <state x="535" y="312" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1601717687401" />
     <state x="389" y="55" width="756" height="768" key="search.everywhere.popup" timestamp="1600768349118">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
