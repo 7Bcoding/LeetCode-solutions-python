@@ -19,9 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44af68c6-0791-4613-bf1a-f3d5d3614ed5" name="Default Changelist" comment="20201005更新，双指针">
+    <list default="true" id="44af68c6-0791-4613-bf1a-f3d5d3614ed5" name="Default Changelist" comment="20201020更新，链表">
       <change afterPath="$PROJECT_DIR$/Testboard.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/链表操作/q143-ReOrderList-重排链表-mid.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/树相关/二叉搜索树相关/q530-GetMinimumDiffrence-二叉搜索树的最小绝对差-easy.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,17 +59,18 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\python\LeetCode-Question-type-solutions\树相关\二叉树" />
-      <recent name="D:\python\LeetCode-Question-type-solutions\树相关\二叉搜索树相关" />
-      <recent name="D:\python\LeetCode-Question-type-solutions\树相关" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Python\LeetCode-Question-type-solutions\双指针遍历" />
       <recent name="D:\python\LeetCode-Question-type-solutions\状态压缩" />
       <recent name="D:\python\LeetCode-Question-type-solutions\动态规划" />
       <recent name="D:\python\LeetCode-Question-type-solutions\贪心算法" />
       <recent name="D:\python\LeetCode-Question-type-solutions\哈希表" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Python\LeetCode-Question-type-solutions\树相关\二叉搜索树相关" />
+      <recent name="D:\python\LeetCode-Question-type-solutions\树相关\二叉树" />
+      <recent name="D:\python\LeetCode-Question-type-solutions\树相关\二叉搜索树相关" />
+      <recent name="D:\python\LeetCode-Question-type-solutions\树相关" />
     </key>
   </component>
   <component name="RunManager" selected="Python.Testboard">
@@ -210,14 +211,7 @@
       <workItem from="1597815532038" duration="624000" />
       <workItem from="1597908388478" duration="4554000" />
       <workItem from="1602771411707" duration="281000" />
-      <workItem from="1603124493657" duration="137000" />
-    </task>
-    <task id="LOCAL-00003" summary="20200716更新,链表">
-      <created>1594906067477</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1594906067477</updated>
+      <workItem from="1603124493657" duration="488000" />
     </task>
     <task id="LOCAL-00004" summary="20200718更新,二叉树">
       <created>1595056610896</created>
@@ -555,7 +549,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601906014825</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="20201020更新，链表">
+      <created>1603124652682</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1603124652682</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -574,7 +575,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="20200808更新，二叉搜索树相关" />
     <MESSAGE value="20200809更新，前缀和相关" />
     <MESSAGE value="20200809更新，字符串相关" />
     <MESSAGE value="20200811更新，区间DP" />
@@ -599,7 +599,8 @@
     <MESSAGE value="20200929更新，二叉树" />
     <MESSAGE value="20200930更新，二叉搜索树" />
     <MESSAGE value="20201005更新，双指针" />
-    <option name="LAST_COMMIT_MESSAGE" value="20201005更新，双指针" />
+    <MESSAGE value="20201020更新，链表" />
+    <option name="LAST_COMMIT_MESSAGE" value="20201020更新，链表" />
   </component>
   <component name="WindowStateProjectService">
     <state x="309" y="42" key="#Inspections" timestamp="1597992572882">
@@ -677,11 +678,11 @@
     </state>
     <state x="141" y="12" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1598062810889" />
     <state x="159" y="14" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1601985558688" />
-    <state x="289" y="138" key="Vcs.Push.Dialog.v2" timestamp="1601907513885">
+    <state x="289" y="138" key="Vcs.Push.Dialog.v2" timestamp="1603124654296">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="257" y="122" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1599383892629" />
-    <state x="289" y="138" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1601907513885" />
+    <state x="289" y="138" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1603124654296" />
     <state x="535" y="312" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601717687401">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
