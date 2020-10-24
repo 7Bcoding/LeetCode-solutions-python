@@ -21,7 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="44af68c6-0791-4613-bf1a-f3d5d3614ed5" name="Default Changelist" comment="20201020更新，链表">
       <change afterPath="$PROJECT_DIR$/Testboard.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/树相关/二叉搜索树相关/q530-GetMinimumDiffrence-二叉搜索树的最小绝对差-easy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/动态规划/q1024-VideoStitching-视频拼接-mid.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -186,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Testboard" />
-        <item itemvalue="Python.q297-BinaryTreeSerialize-二叉树的序列化与反序列化-hard" />
-        <item itemvalue="Python.TestBoard" />
         <item itemvalue="Python.q300-LengthOfLIS-最长上升子序列-mid" />
+        <item itemvalue="Python.q297-BinaryTreeSerialize-二叉树的序列化与反序列化-hard" />
         <item itemvalue="Python.q1367-IsSubPath-二叉树中的列表-mid" />
+        <item itemvalue="Python.Testboard" />
+        <item itemvalue="Python.TestBoard" />
       </list>
     </recent_temporary>
   </component>
@@ -212,6 +212,7 @@
       <workItem from="1597908388478" duration="4554000" />
       <workItem from="1602771411707" duration="281000" />
       <workItem from="1603124493657" duration="488000" />
+      <workItem from="1603531763063" duration="461000" />
     </task>
     <task id="LOCAL-00004" summary="20200718更新,二叉树">
       <created>1595056610896</created>
