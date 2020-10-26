@@ -19,9 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44af68c6-0791-4613-bf1a-f3d5d3614ed5" name="Default Changelist" comment="20201024更新，动态规划">
+    <list default="true" id="44af68c6-0791-4613-bf1a-f3d5d3614ed5" name="Default Changelist" comment="20201025更新，动态规划">
       <change afterPath="$PROJECT_DIR$/Testboard.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/动态规划/q845-LongestMountain-数组中的最长山脉-mid.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -214,14 +213,7 @@
       <workItem from="1603124493657" duration="488000" />
       <workItem from="1603531763063" duration="928000" />
       <workItem from="1603622417135" duration="193000" />
-      <workItem from="1603628497738" duration="931000" />
-    </task>
-    <task id="LOCAL-00005" summary="20200719更新,回溯算法">
-      <created>1595133179372</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1595133179372</updated>
+      <workItem from="1603628497738" duration="2622000" />
     </task>
     <task id="LOCAL-00006" summary="20200719更新,回溯算法">
       <created>1595133225777</created>
@@ -559,7 +551,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603532249818</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="20201025更新，动态规划">
+      <created>1603629453445</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1603629453446</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -578,7 +577,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="20200809更新，字符串相关" />
     <MESSAGE value="20200811更新，区间DP" />
     <MESSAGE value="20200812更新，字符串、哈希表" />
     <MESSAGE value="20200812更新，动态规划" />
@@ -603,7 +601,8 @@
     <MESSAGE value="20201005更新，双指针" />
     <MESSAGE value="20201020更新，链表" />
     <MESSAGE value="20201024更新，动态规划" />
-    <option name="LAST_COMMIT_MESSAGE" value="20201024更新，动态规划" />
+    <MESSAGE value="20201025更新，动态规划" />
+    <option name="LAST_COMMIT_MESSAGE" value="20201025更新，动态规划" />
   </component>
   <component name="WindowStateProjectService">
     <state x="309" y="42" key="#Inspections" timestamp="1597992572882">
@@ -681,11 +680,11 @@
     </state>
     <state x="141" y="12" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1598062810889" />
     <state x="159" y="14" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1601985558688" />
-    <state x="289" y="138" key="Vcs.Push.Dialog.v2" timestamp="1603532250962">
+    <state x="289" y="138" key="Vcs.Push.Dialog.v2" timestamp="1603629775534">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="257" y="122" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1599383892629" />
-    <state x="289" y="138" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1603532250962" />
+    <state x="289" y="138" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1603629775534" />
     <state x="535" y="312" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601717687401">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

@@ -7,8 +7,7 @@ class Solution(object):
         :type graph: List[List[int]]
         :rtype: List[int]
         """
-        # 个人解法：
-        # 深度优先遍历 + 剪枝
+        # 个人解法：深度优先遍历 + 剪枝
         # visited标记是否访问过该节点，0——未从该节点出发进行过dfs，1——正在dfs该节点，2——该节点不安全，3——该节点最终安全
         # 如果visited=1 或 visited=2，则说明访问了深度遍历过程中访问过的节点或者访问了不安全的节点，则返回False，该节点不安全
         if len(graph) == 0: return []
