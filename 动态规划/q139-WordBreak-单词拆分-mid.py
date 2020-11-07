@@ -24,7 +24,7 @@ class Solution(object):
         # 有没有更好的方法？我们不妨将s从长度为0逐渐拉长，如果每次都能通过前面的长度更短的能拆分的s+字典中存在的元素组成新的s
         # ，那么长度为i的单词就可拆分，如果不能递推得到，说明长度为i的s不能拆分，这就是动态规划的思想，转移方程为：
         # dp[i] = dp[j] & checkdict(s[j,i])
-        #
+
         l = len(s)
         if not wordDict: return not s
         dp = [False] * (l + 1)
