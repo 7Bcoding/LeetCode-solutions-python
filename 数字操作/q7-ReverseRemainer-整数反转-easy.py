@@ -12,5 +12,5 @@ class Solution:
             reverse_x = reverse_x*10 + remainder
             x = x // 10
         print(reverse_x)
-        reverse_x = 0 if reverse_x>2**31 else reverse_x
+        reverse_x = 0 if reverse_x > 2**31 else reverse_x
         return reverse_x * flag
