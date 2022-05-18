@@ -1,5 +1,5 @@
 class Solution(object):
-    def hasCycle(self, head):
+    def hasCycle1(self, head):
         """
         :type head: ListNode
         :rtype: bool
@@ -26,7 +26,7 @@ class Solution(object):
     # 2. 而快跑者最终一定会追上慢跑者。这是为什么呢？考虑下面这种情况（记作情况 A）-假如快跑者只落后慢跑者一步，
     # 在下一次迭代中，它们就会分别跑了一步或两步并相遇。
 
-    def hasCycle(self, head):
+    def hasCycle2(self, head):
         if not head or head.next is None:
             return False
         slow = head
