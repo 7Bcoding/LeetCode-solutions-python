@@ -17,7 +17,7 @@ class Solution(object):
         #   现在，这两个指针被 n 个结点分开。我们通过同时移动两个指针向前来保持这个恒定的间隔，直到第一个
         # 指针到达最后一个结点。此时第二个指针将指向从最后一个结点数起的第 n 个结点。我们重新链接第二个
         # 指针所引用的结点的 next 指针指向该结点的下下个结点。
-        dummy = ListNode()
+        dummy = ListNode(-1)
         dummy.next = head
         p1, p2 = dummy, dummy
 
