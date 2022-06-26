@@ -10,7 +10,6 @@ class Solution(object):
         # 即nums[j]本应在nums[i]左边，但是却在nums[i]右边，由此贡献了一个逆序对，
         # 而nums[i]后面的数都是大于nums[i]的，也都大于nums[j]对应的数，
         # 那么就贡献了mid - i + 1个逆序对，累加count，即可得到总的逆序对数量
-        array = []
         self.count = 0
 
         temp = [0 for _ in range(len(nums))]
